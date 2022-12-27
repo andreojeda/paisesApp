@@ -14,8 +14,9 @@
 
 <hr>
 
-<div class="alert alert-danger">
-    No se encontró nada con el termino ABCASD
+<div *ngIf="hayError"
+class="alert alert-danger">
+    No se encontró nada con el termino {{ termino }}
 </div>
 
 <div class="row">
