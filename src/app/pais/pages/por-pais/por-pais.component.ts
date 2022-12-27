@@ -6,4 +6,10 @@ import { Component } from '@angular/core';
 })
 export class PorPaisComponent {
 
+  termino: string = 'Hola Mundo';
+
+  buscar(){
+    console.log(this.termino);
+  }
+
 }
